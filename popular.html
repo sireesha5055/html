@@ -1,0 +1,99 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>welcome to my NEtflix website </title>
+    <style>
+            body{
+                margin-left: 250px;
+                background-color:rgb(15, 14, 14);
+            }
+            * {
+             box-sizing:content-box;
+            }
+            form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid black;
+            float: right;
+            width: 20%;
+            margin-right: 90px;
+            margin-top: 15px;
+            background:green;
+           }
+
+
+        form.example button {
+        float: right;
+        width: 15px;
+        padding: 2px;
+        background:greenyellow;
+        color: rgb(20, 19, 19);
+        font-size: 15px;
+        margin-right: 0px;
+        margin-top: 20px;
+        cursor: pointer;
+        }
+
+    form.example button:hover {
+    background: #0b7dda;
+    }
+
+    form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    .content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.content-item {
+    text-align: center;
+    color:white
+    
+}
+
+.content-item img {
+    max-width: 90%;
+    height: 85%;
+    border-radius: 8px;
+}
+    h1{
+        float="left";
+         background-color="white";
+        color: white;
+        margin-left: 25%;
+    }
+            </style>
+            </head>
+            <body>
+                <h1 >POPULAR MOVIES </h1>
+                <div>
+                    <form class="example" action="action_page.php">
+                        <input type="text" placeholder="Search.." name="search">
+                        <button type="submit"><i class="fa fa-search"></i></button>
+                      </form>
+                      </div>
+                      <section class="content">
+                        <!-- Content items go here (movies, TV shows, etc.) -->
+                        <div class="content-item">
+                            <img src="C:\Users\kotha\Downloads\lep.jpg"alt="Movie 1">
+                            <h2 >LEO</h2>
+                        </div>
+                        <div class="content-item">
+                            <img src = "C:\Users\kotha\Downloads\jawan.avif"alt="Movie 2">
+                            <h2>JAWAN</h2>
+                        </div>
+                    <div class="content-item">
+                            <img src ="C:\Users\kotha\Downloads\bahubali.jpg" alt="Movie 2">
+                            <h2>BAHUBALI 1</h2>
+                        </div>
+                  <div class="content-item">
+                            <img src ="C:\Users\kotha\Downloads\irugapatru.jpg" alt="Movie 2">
+                            
+                           <h2>IRUGAPATRU</h2>
+                  </div>
+            </body>

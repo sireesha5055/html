@@ -1,0 +1,194 @@
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Netflix-style Webpage</title>
+   <style>
+   body {
+    margin: 0;
+    font-family: serif, serif;
+    background-color:black;
+}
+.content {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.content-item {
+    text-align: center;
+    color:white
+    
+}
+
+.content-item img {
+    max-width: 90%;
+    height: 85%;
+    border-radius: 8px;
+}
+ul{
+                list-style-type: none;
+                margin: 0px;
+                padding: 0px;
+                overflow: auto;
+                position: fixed;
+                top: 0;
+                width: 100%;
+                margin-top: 3px;
+               
+            
+            }
+            li{
+                float: left;
+            }
+            li a {
+                display: block;
+                background-color: black;
+                padding: 20px;
+                text-decoration: none;
+                color: rgb(243, 8, 8);
+            }
+            * {
+             box-sizing:content-box;
+            }
+            form.example input[type=text] {
+            padding: 10px;
+            font-size: 17px;
+            border: 1px solid black;
+            float: right;
+            width: 20%;
+            margin-right: 90px;
+            margin-top: 15px;
+            background: #f1f1f1;
+           }
+
+
+        form.example button {
+        float: right;
+        width: 15px;
+        padding: 2px;
+        background:white;
+        color: rgb(20, 19, 19);
+        font-size: 15px;
+        margin-right: 0px;
+        margin-top: 20px;
+        cursor: pointer;
+        }
+
+    form.example button:hover {
+    background: #0b7dda;
+    }
+
+    form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+    }
+    h2{
+        background-color: green;
+        font-family: 'Courier New', Courier, monospace;
+    }
+    h1{
+        background-color: black;
+        color: green;
+        margin-bottom: 2px;
+    }
+    h5{
+        margin-bottom: 1px;
+        color :gold
+
+    }
+    .button{
+        background-color: black;
+        text-align: center;
+        width: 35px;
+        height: 10px;
+        font-size:10px;
+        color: gold;
+    }
+    </style>
+    </head>
+    <body>
+        <ul>
+            <li><a href="netflix.html">NETFLIX</a></li>
+            <li><a href ="home.html">HOME</a></li>
+            <li><a href="popular.html">Popular</a></li>
+        </ul><br><br>
+        <div>
+        <form class="example" action="action_page.php">
+            <input type="text" placeholder="Search.." name="search">
+            <button type="submit"><i class="fa fa-search"></i></button>
+          </form>
+          </div>
+    <h1 >TRENDING MOVIES </h1>
+    
+<div class="content">
+                <!-- Content items go here (movies, TV shows, etc.) -->
+                <div class="content-item">
+                    <img src="C:\Users\kotha\Downloads\download.jpg" alt="Movie 1">
+                    <button class="button" type ="submit">Premium</button>
+                    <h2 >IRUGAPATRU</h2>
+                </div>
+                <div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\leo.avif" alt="Movie 2">
+                    <button class="button" type ="submit">Premium</button>
+                    <h2>LEO</h2>
+                </div>
+            <div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\bahubali.jpg" alt="Movie 2">
+                    <button class="button" type ="submit">Premium</button>
+                    <h2>BAHUBALI 1</h2>
+                </div>
+          <div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\gabbarsing.jpg" alt="Movie 2">
+                    <button class="button" type ="submit">Premium</button>
+                   <h2>GABBARSINGH</h2>
+                </div>
+<div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\sar.webp"alt="Movie 2">
+                    <button class="button" type ="submit">Premium</button>
+                    <h2>GABBARSINGH-2</h2>
+                </div>
+<div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\aru.jpg" alt="Movie 2">
+                    <button class="button" type ="submit">Premium</button>
+                    <h2>ARUNDATHI</h2>
+                </div>
+ </div>               
+        <br> 
+    <h1 style="display: block;">FREE MOVIES</h1>
+    <div class="content">
+<div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\download (4).jpg" alt="Movie 2">
+                    <button class="button" type ="submit">Free</button>
+                    <h2>Ms.SETTY&MR.POLISETTY</h2>
+                </div>
+<div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\krack.webp" alt="Movie 2">
+                    <button class="button" type ="submit">Free</button>
+                    <h2>KRACK</h2>
+                </div>
+<div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\monthofmadhu.avif" alt="Movie 2">
+                    <button class="button" type ="submit">Free</button>
+                    <h2>MONTH OF MADHU</h2>
+                </div>
+                <div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\download (4).jpg" alt="Movie 2">
+                    <button class="button" type ="submit">Free</button>
+                    <h2>Ms.SETTY&MR.POLISETTY</h2>
+                </div>
+<div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\krack.webp" alt="Movie 2">
+                    <button class="button" type ="submit">Free</button>
+                    <h2>KRACK</h2>
+                </div>
+<div class="content-item">
+                    <img src ="C:\Users\kotha\Downloads\monthofmadhu.avif" alt="Movie 2">
+                    <button class="button" type ="submit">Free</button>
+                    <h2>MONTH OF MADHU</h2>
+                </div>
+    </div>
+    </div>
+</body>
+</html>
