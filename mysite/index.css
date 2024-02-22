@@ -1,0 +1,29 @@
+body{
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+header{
+    text-align: center;
+    background-color: aquamarine;
+    color: green ;
+
+}
+.header{
+    overflow:hidden;
+    background-color:black;
+}
+.header li {
+    float: left;
+    color:yellow;
+    padding: 14px 16px;
+    font-size: 20px;
+    text-decoration: none;
+    list-style-type: none; 
+       
+}
+.header a{
+    color: pink;
+    text-decoration: none;
+}
+
+

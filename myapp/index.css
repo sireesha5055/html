@@ -1,0 +1,25 @@
+.header{
+    background-color: black;
+     overflow: hidden;
+}
+.header a{
+     float: left;
+     color: greenyellow;
+     text-align: center;
+    padding: 15px 18px;
+    text-decoration: none;
+    font-size: large;
+
+
+}
+.header a:hover{
+    background-color: aqua;
+    color: brown;
+
+
+}
+.header a:active{
+    background-color: blueviolet;
+    color: black;
+    font-size: 30px;
+}
